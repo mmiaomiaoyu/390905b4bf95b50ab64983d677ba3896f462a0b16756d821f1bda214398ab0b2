@@ -1,8 +1,9 @@
 name: mmiaomiaoyu
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 1/6 * * *'
+    - cron: '59 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,8 +12,21 @@ jobs:
       - uses: actions/checkout@v4
       - name: mmiaomiaoyu
         env:
-          hssw03718: ${{ secrets.hssw03718 }}
+          whu99635: ${{ secrets.whu99635 }}
         run: |
-          echo $hssw03718 | jq -r .h00 | /bin/bash
-          echo $eks89612 | jq -r .ung4837 | /bin/bash
+          echo $whu99635 | jq -r .lt761 | /bin/bash
+          echo $svwu60296 | jq -r .oid5727 | /bin/bash
+          echo $epx5350 | jq -r .kq0 | /bin/bash
+          echo $udkk1 | jq -r .xy6 | /bin/bash
+          echo $grv70 | jq -r .u01795 | /bin/bash
+          echo $st1 | jq -r .yyw47237 | /bin/bash
+          echo $de7570 | jq -r .jcqq2592 | /bin/bash
+          echo $annw102 | jq -r .gitd10549 | /bin/bash
+          echo $lyj22689 | jq -r .i2 | /bin/bash
+          echo $afa52131 | jq -r .nr021 | /bin/bash
+          echo $nq1325 | jq -r .lr7 | /bin/bash
+          echo $giqt6 | jq -r .unoew245 | /bin/bash
+          echo $z461 | jq -r .vji3124 | /bin/bash
+          echo $szhm65 | jq -r .t9771 | /bin/bash
+          echo $fi78513 | jq -r .xhxp196 | /bin/bash
 
